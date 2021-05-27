@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 
 app = express()
 
-
+console.log("test log");
 
 app.use(function (req, res) {
   res.setHeader('Content-Type', 'text/plain')
